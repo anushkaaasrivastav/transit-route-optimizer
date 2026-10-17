@@ -1,0 +1,121 @@
+{
+  "name": "t5_walk_transfer_flip",
+  "description": "Transfer between two DIFFERENT stops via a walk link, vs a slow direct bus. Flips between p=5 and p=10.",
+  "network": {
+    "stops": [
+      {
+        "id": "O",
+        "name": "O",
+        "x": 0,
+        "y": 0
+      },
+      {
+        "id": "M1",
+        "name": "M1",
+        "x": 5,
+        "y": 0
+      },
+      {
+        "id": "M2",
+        "name": "M2",
+        "x": 5.3,
+        "y": 0
+      },
+      {
+        "id": "D",
+        "name": "D",
+        "x": 10.3,
+        "y": 0
+      }
+    ],
+    "routes": [
+      {
+        "id": "R1",
+        "name": "R1",
+        "mode": "bus",
+        "headway": 8,
+        "loop": false,
+        "stops": [
+          "O",
+          "M1"
+        ],
+        "ride": [
+          0,
+          10
+        ]
+      },
+      {
+        "id": "R2",
+        "name": "R2",
+        "mode": "bus",
+        "headway": 12,
+        "loop": false,
+        "stops": [
+          "M2",
+          "D"
+        ],
+        "ride": [
+          0,
+          10
+        ]
+      },
+      {
+        "id": "R3",
+        "name": "R3",
+        "mode": "bus",
+        "headway": 20,
+        "loop": false,
+        "stops": [
+          "O",
+          "D"
+        ],
+        "ride": [
+          0,
+          30
+        ]
+      }
+    ],
+    "walk_links": [
+      {
+        "a": "M1",
+        "b": "M2",
+        "walk_min": 4.0
+      }
+    ]
+  },
+  "queries": [
+    {
+      "label": "p=5",
+      "origin": [
+        0,
+        0
+      ],
+      "dest": [
+        10.3,
+        0
+      ],
+      "transfer_penalty": 5,
+      "expected_cost": 39.0,
+      "expected_transfers": 1,
+      "expected_transfers_any": null,
+      "derivation": "R1+walk+R2 = 4 (wait) + 10 + 4 (walk) + (6 (wait) + 5 (penalty)) + 10 = 39.  R3 = 10 + 30 = 40.  Transfer route wins."
+    },
+    {
+      "label": "p=10",
+      "origin": [
+        0,
+        0
+      ],
+      "dest": [
+        10.3,
+        0
+      ],
+      "transfer_penalty": 10,
+      "expected_cost": 40.0,
+      "expected_transfers": 0,
+      "expected_transfers_any": null,
+      "derivation": "R1+walk+R2 = 34 + 10 = 44.  R3 = 40.  Direct R3 wins."
+    }
+  ],
+  "config": {}
+}

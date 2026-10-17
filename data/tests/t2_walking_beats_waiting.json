@@ -1,0 +1,57 @@
+{
+  "name": "t2_walking_beats_waiting",
+  "description": "Destination is 1.2 km away. A 30-min-headway bus is slower than just walking.",
+  "network": {
+    "stops": [
+      {
+        "id": "O",
+        "name": "O",
+        "x": 0,
+        "y": 0
+      },
+      {
+        "id": "D",
+        "name": "D",
+        "x": 1.2,
+        "y": 0
+      }
+    ],
+    "routes": [
+      {
+        "id": "B",
+        "name": "B",
+        "mode": "bus",
+        "headway": 30,
+        "loop": false,
+        "stops": [
+          "O",
+          "D"
+        ],
+        "ride": [
+          0,
+          4
+        ]
+      }
+    ],
+    "walk_links": []
+  },
+  "queries": [
+    {
+      "label": "p=5",
+      "origin": [
+        0,
+        0
+      ],
+      "dest": [
+        1.2,
+        0
+      ],
+      "transfer_penalty": 5,
+      "expected_cost": 18.0,
+      "expected_transfers": 0,
+      "expected_transfers_any": null,
+      "derivation": "Bus = 15 (wait) + 4 = 19.  Walk = 1.2 km * 1.2 detour * 60 / 4.8 = 18.0.  Walking wins; no vehicle boarded."
+    }
+  ],
+  "config": {}
+}

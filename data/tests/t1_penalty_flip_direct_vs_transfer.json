@@ -1,0 +1,144 @@
+{
+  "name": "t1_penalty_flip_direct_vs_transfer",
+  "description": "Direct slow bus X vs metro Y + bus Z with a transfer at M. The preferred route flips at p = 7.",
+  "network": {
+    "stops": [
+      {
+        "id": "O",
+        "name": "O",
+        "x": 0,
+        "y": 0
+      },
+      {
+        "id": "M",
+        "name": "M",
+        "x": 4.8,
+        "y": 0
+      },
+      {
+        "id": "D",
+        "name": "D",
+        "x": 9.3,
+        "y": 0
+      }
+    ],
+    "routes": [
+      {
+        "id": "X",
+        "name": "X",
+        "mode": "bus",
+        "headway": 10,
+        "loop": false,
+        "stops": [
+          "O",
+          "D"
+        ],
+        "ride": [
+          0,
+          30
+        ]
+      },
+      {
+        "id": "Y",
+        "name": "Y",
+        "mode": "metro",
+        "headway": 6,
+        "loop": false,
+        "stops": [
+          "O",
+          "M"
+        ],
+        "ride": [
+          0,
+          8
+        ]
+      },
+      {
+        "id": "Z",
+        "name": "Z",
+        "mode": "bus",
+        "headway": 10,
+        "loop": false,
+        "stops": [
+          "M",
+          "D"
+        ],
+        "ride": [
+          0,
+          12
+        ]
+      }
+    ],
+    "walk_links": []
+  },
+  "queries": [
+    {
+      "label": "p=0",
+      "origin": [
+        0,
+        0
+      ],
+      "dest": [
+        9.3,
+        0
+      ],
+      "transfer_penalty": 0,
+      "expected_cost": 28.0,
+      "expected_transfers": 1,
+      "expected_transfers_any": null,
+      "derivation": "X = 5 + 30 = 35.  Y+Z = 3 + 8 + (5 + p) + 12 = 28 + p = 28.  Y+Z wins."
+    },
+    {
+      "label": "p=5 (default)",
+      "origin": [
+        0,
+        0
+      ],
+      "dest": [
+        9.3,
+        0
+      ],
+      "transfer_penalty": 5,
+      "expected_cost": 33.0,
+      "expected_transfers": 1,
+      "expected_transfers_any": null,
+      "derivation": "X = 35.  Y+Z = 28 + 5 = 33.  Y+Z wins (1 transfer)."
+    },
+    {
+      "label": "p=10",
+      "origin": [
+        0,
+        0
+      ],
+      "dest": [
+        9.3,
+        0
+      ],
+      "transfer_penalty": 10,
+      "expected_cost": 35.0,
+      "expected_transfers": 0,
+      "expected_transfers_any": null,
+      "derivation": "X = 35.  Y+Z = 28 + 10 = 38.  Direct X wins (0 transfers)."
+    },
+    {
+      "label": "p=7 (exact tie)",
+      "origin": [
+        0,
+        0
+      ],
+      "dest": [
+        9.3,
+        0
+      ],
+      "transfer_penalty": 7,
+      "expected_cost": 35.0,
+      "expected_transfers": null,
+      "expected_transfers_any": [
+        0,
+        1
+      ],
+      "derivation": "X = 35.  Y+Z = 28 + 7 = 35.  Tie: cost must be 35 whichever route is returned."
+    }
+  ],
+  "config": {}
+}

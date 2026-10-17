@@ -1,0 +1,81 @@
+stop_id,name,x_km,y_km
+S001,Cedar Market Station,0.480,3.771
+S002,Dunmore Court Station,1.579,4.109
+S003,Ivy Hill Station,2.890,4.380
+S004,Upland Gate Station,4.189,4.604
+S005,Fairview Gate Station,5.097,4.864
+S006,Linden Market Station,6.596,5.262
+S007,Vale Park Station,7.822,5.371
+S008,Willow Lane Station,8.835,5.761
+S009,Upland Square Station,9.957,5.990
+S010,Thorne Lane Station,11.194,6.193
+S011,Ridge Yard Station,4.989,0.484
+S012,Harbor Green Station,4.958,1.583
+S013,Oakley Court Station,5.024,2.680
+S014,Ivy Lane Station,5.006,4.061
+S015,Willow Road Station,5.097,6.714
+S016,Harbor Lane Station,5.258,8.047
+S017,Kestrel Row Station,5.250,9.311
+S018,Zephyr Cross Station,5.270,10.738
+S019,Fairview Row,11.295,1.626
+S020,Vale Court,10.612,2.154
+S021,Thorne Square,9.828,2.455
+S022,Maple Court,9.204,3.056
+S023,Thorne Hill,8.480,3.340
+S024,Quarry Park,7.776,3.780
+S025,Ridge Cross,7.109,4.245
+S026,Vale Yard,6.377,4.586
+S027,Dunmore Lane,5.794,5.094
+S028,Ridge Row,5.013,5.480
+S029,Elm Green,7.781,0.728
+S030,Vale Hill,7.046,0.846
+S031,Ridge Green,6.417,1.202
+S032,Ivy Road,5.857,1.570
+S033,Thorne Court,4.608,2.075
+S034,Garnet Road,4.000,2.251
+S035,Zephyr Yard,3.427,2.455
+S036,Willow Market,2.757,2.679
+S037,Brook Market,7.334,4.829
+S038,Cedar Cross,6.583,4.363
+S039,Upland Road,7.817,4.307
+S040,Alder Square,8.353,5.365
+S041,Zephyr Market,8.294,6.582
+S042,Fairview Court,7.818,7.573
+S043,Pinewood Hill,6.969,8.178
+S044,Garnet Court,5.771,8.453
+S045,Brook Green,4.556,8.071
+S046,Maple Cross,3.918,7.085
+S047,Maple Park,3.501,6.041
+S048,Oakley Park,3.754,4.834
+S049,Northgate Yard,4.580,4.088
+S050,Yarrow Row,5.587,3.646
+S051,Ridge Lane,6.904,3.628
+S052,Elm Gate,1.683,3.800
+S053,Cedar Market,2.536,3.856
+S054,Linden Park,3.250,4.164
+S055,Fairview Hill,4.091,4.264
+S056,Ridge Yard,4.848,4.516
+S057,Juniper Bridge,5.651,4.593
+S058,Alder Lane,7.177,5.089
+S059,Ridge Park,8.108,5.067
+S060,Vale Square,8.913,5.379
+S061,Elm Park,9.662,5.536
+S062,Linden Row,1.951,9.286
+S063,Ridge Court,2.514,9.319
+S064,Thorne Yard,3.094,9.522
+S065,Elm Market,3.588,9.766
+S066,Alder Green,4.229,9.758
+S067,Yarrow Gate,4.726,9.961
+S068,Northgate Row,5.293,10.145
+S069,Harbor Park,5.810,10.283
+S070,Willow Square,6.382,10.606
+S071,Pinewood Market,6.937,10.618
+S072,Dunmore Park,7.499,1.281
+S073,Fairview Bridge,8.346,1.180
+S074,Sunhill Park,4.511,5.124
+S075,Maple Road,4.518,5.734
+S076,Alder Park,4.607,6.374
+S077,Juniper Market,4.726,7.023
+S078,Sunhill Bridge,4.911,7.568
+S079,Upland Gate,4.928,8.239
+S080,Oakley Hill,5.112,8.837

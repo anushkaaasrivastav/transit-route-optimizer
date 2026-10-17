@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Interchange: route planner</title>
+  <meta name="description" content="Plan a trip across a fictional city and compare A* with Dijkstra on real experiment results.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231e2a32'/%3E%3Ccircle cx='11' cy='16' r='5' fill='none' stroke='%23ffd23f' stroke-width='3'/%3E%3Ccircle cx='21' cy='16' r='5' fill='none' stroke='%23fff' stroke-width='3'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="topbar">
+    <a class="brand" href="#/planner" aria-label="Interchange, home">
+      <svg width="30" height="30" viewBox="0 0 32 32" aria-hidden="true">
+        <rect width="32" height="32" rx="7" fill="#1e2a32"/>
+        <circle cx="11" cy="16" r="5" fill="none" stroke="#ffd23f" stroke-width="3"/>
+        <circle cx="21" cy="16" r="5" fill="none" stroke="#fff" stroke-width="3"/>
+      </svg>
+      Interchange
+    </a>
+    <nav class="tabs" aria-label="Sections">
+      <a href="#/planner" data-tab="planner">Planner</a>
+      <a href="#/experiments" data-tab="experiments">Experiments</a>
+      <a href="#/about" data-tab="about">How it works</a>
+    </nav>
+    <span class="synthetic-tag" title="Every stop, line and timetable is generated from a fixed random seed. Nothing here is a real city.">Synthetic data: a fictional city</span>
+  </header>
+
+  <main id="main">
+    <!-- ================= planner ================= -->
+    <section id="view-planner" class="planner" hidden aria-label="Trip planner">
+      <aside class="rail" id="rail">
+        <div class="sec">
+          <h2>Trip</h2>
+          <div class="endpoints">
+            <div class="ep-marks" aria-hidden="true"><span class="ep-a">A</span><span class="ep-line"></span><span class="ep-b">B</span></div>
+            <div class="ep-fields">
+              <div class="cb" id="cb-from"></div>
+              <div class="cb" id="cb-to"></div>
+            </div>
+            <button class="icon-btn" id="swap" type="button" aria-label="Swap start and destination" title="Swap">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 4v16M7 20l-3-3M7 20l3-3M17 20V4M17 4l-3 3M17 4l3 3"/></svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="sec" id="options">
+          <h2>Options</h2>
+          <div class="field">
+            <span class="field-label" id="algo-label">Algorithm</span>
+            <div class="segmented" role="radiogroup" aria-labelledby="algo-label">
+              <button type="button" role="radio" data-algo="astar" aria-checked="true" class="on">A*</button>
+              <button type="button" role="radio" data-algo="dijkstra" aria-checked="false">Dijkstra</button>
+            </div>
+            <p class="hint" id="algo-desc"></p>
+          </div>
+          <div class="field">
+            <div class="field-row"><label for="penalty">Transfer penalty</label><output id="penalty-out" for="penalty">5 min</output></div>
+            <input id="penalty" type="range" min="0" max="30" step="1" value="5" style="width:100%">
+            <div class="presets" role="group" aria-label="Penalty presets">
+              <button type="button" data-preset="0">0 <span>min</span></button>
+              <button type="button" data-preset="5" class="on">5 <span>min</span></button>
+              <button type="button" data-preset="15">15 <span>avoid changes</span></button>
+            </div>
+            <p class="hint">Extra cost added each time you change vehicle. The first boarding is free.</p>
+          </div>
+        </div>
+
+        <div class="sec" id="result" aria-live="polite"></div>
+        <div class="sec sec-action"><button type="button" class="btn" id="replay-open" hidden>Watch the search</button></div>
+        <div class="sec" id="compare" hidden></div>
+        <div class="sec" id="sweep-sec" hidden>
+          <h2>How the penalty changes this trip</h2>
+          <div class="sweep" id="sweep-chart"></div>
+          <p class="hint" id="sweep-note"></p>
+        </div>
+        <div class="sec" id="flips-sec" hidden>
+          <h2>Trips where the route changes</h2>
+          <p class="hint">Found by the experiment runner. Open one and move the penalty slider.</p>
+          <ul class="flips" id="flips"></ul>
+        </div>
+      </aside>
+
+      <div class="mapwrap" id="mapwrap">
+        <div class="map-root" id="map" tabindex="0" role="application"
+             aria-label="City map. Drag to pan, scroll to zoom, click a stop to plan from or to it."></div>
+
+        <div class="map-controls">
+          <button class="icon-btn" id="zoom-in" type="button" aria-label="Zoom in">+</button>
+          <button class="icon-btn" id="zoom-out" type="button" aria-label="Zoom out">&minus;</button>
+          <button class="icon-btn" id="zoom-fit" type="button" aria-label="Fit to route" title="Fit to route">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg>
+          </button>
+          <div class="toggles">
+            <label><input type="checkbox" id="opt-labels" checked> Stop names</label>
+            <label><input type="checkbox" id="opt-walks" checked> Walking links</label>
+          </div>
+        </div>
+
+        <details class="legend" id="legend" open>
+          <summary>Legend</summary>
+          <div id="legend-body"></div>
+        </details>
+
+        <div class="replay" id="replay" hidden>
+          <div class="replay-top">
+            <button type="button" class="btn" id="replay-play">Play</button>
+            <input type="range" id="replay-step" min="0" max="0" value="0" aria-label="Search step">
+            <button type="button" class="icon-btn" id="replay-close" aria-label="Close search replay">&times;</button>
+          </div>
+          <div class="replay-bottom">
+            <span id="replay-label"></span>
+            <span class="rkeys" id="replay-key"></span>
+            <label class="both"><input type="checkbox" id="replay-both"> Show both algorithms</label>
+          </div>
+        </div>
+
+        <div class="tip" id="tip" hidden></div>
+        <div class="popover" id="popover" hidden></div>
+        <div class="toast" id="toast" role="status"></div>
+      </div>
+    </section>
+
+    <!-- ================= experiments ================= -->
+    <section id="view-experiments" class="page" hidden aria-label="Experiments">
+      <div class="page-inner" id="experiments-root"><p class="loading-note">Loading results...</p></div>
+    </section>
+
+    <!-- ================= how it works ================= -->
+    <section id="view-about" class="page" hidden aria-label="How it works">
+      <div class="page-inner prose" id="about-root"></div>
+    </section>
+  </main>
+
+  <script type="module" src="/js/main.js"></script>
+</body>
+</html>

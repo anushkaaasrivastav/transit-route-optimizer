@@ -1,0 +1,9 @@
+{
+  "access_radius_km": 0.6,
+  "transfer_penalty_min": 5.0,
+  "v_max_kmh": 40.0,
+  "wait_factor": 0.5,
+  "walk_cap_km": 1.5,
+  "walk_detour": 1.2,
+  "walk_speed_kmh": 4.8
+}

@@ -1,0 +1,81 @@
+{
+  "name": "t7_loop_route_seam",
+  "description": "Loop route P->Q->R->P... Riding R->P->Q crosses the 'seam' (last stop back to first) without a transfer.",
+  "network": {
+    "stops": [
+      {
+        "id": "P",
+        "name": "P",
+        "x": 0,
+        "y": 0
+      },
+      {
+        "id": "Q",
+        "name": "Q",
+        "x": 4,
+        "y": 0
+      },
+      {
+        "id": "R",
+        "name": "R",
+        "x": 2,
+        "y": 3.5
+      }
+    ],
+    "routes": [
+      {
+        "id": "L",
+        "name": "L",
+        "mode": "bus",
+        "headway": 10,
+        "loop": true,
+        "stops": [
+          "P",
+          "Q",
+          "R"
+        ],
+        "ride": [
+          7,
+          7,
+          7
+        ]
+      }
+    ],
+    "walk_links": []
+  },
+  "queries": [
+    {
+      "label": "R -> Q (crosses the seam)",
+      "origin": [
+        2,
+        3.5
+      ],
+      "dest": [
+        4,
+        0
+      ],
+      "transfer_penalty": 5,
+      "expected_cost": 19.0,
+      "expected_transfers": 0,
+      "expected_transfers_any": null,
+      "derivation": "Wait 5 + ride R->P 7 + ride P->Q 7 = 19.  No transfer: the vehicle just keeps going."
+    },
+    {
+      "label": "R -> P",
+      "origin": [
+        2,
+        3.5
+      ],
+      "dest": [
+        0,
+        0
+      ],
+      "transfer_penalty": 5,
+      "expected_cost": 12.0,
+      "expected_transfers": 0,
+      "expected_transfers_any": null,
+      "derivation": "Wait 5 + ride R->P 7 = 12."
+    }
+  ],
+  "config": {}
+}

@@ -1,0 +1,100 @@
+{
+  "name": "t4_no_path",
+  "description": "Two disconnected pieces far apart. The search must report 'no route' (cost null).",
+  "network": {
+    "stops": [
+      {
+        "id": "A",
+        "name": "A",
+        "x": 0,
+        "y": 0
+      },
+      {
+        "id": "B",
+        "name": "B",
+        "x": 3,
+        "y": 0
+      },
+      {
+        "id": "C",
+        "name": "C",
+        "x": 12,
+        "y": 0
+      },
+      {
+        "id": "D",
+        "name": "D",
+        "x": 15,
+        "y": 0
+      }
+    ],
+    "routes": [
+      {
+        "id": "R1",
+        "name": "R1",
+        "mode": "bus",
+        "headway": 10,
+        "loop": false,
+        "stops": [
+          "A",
+          "B"
+        ],
+        "ride": [
+          0,
+          6
+        ]
+      },
+      {
+        "id": "R2",
+        "name": "R2",
+        "mode": "bus",
+        "headway": 10,
+        "loop": false,
+        "stops": [
+          "C",
+          "D"
+        ],
+        "ride": [
+          0,
+          6
+        ]
+      }
+    ],
+    "walk_links": []
+  },
+  "queries": [
+    {
+      "label": "A -> D",
+      "origin": [
+        0,
+        0
+      ],
+      "dest": [
+        15,
+        0
+      ],
+      "transfer_penalty": 5,
+      "expected_cost": null,
+      "expected_transfers": null,
+      "expected_transfers_any": null,
+      "derivation": "No ride, walk link or short direct walk connects the two pieces."
+    },
+    {
+      "label": "A -> B",
+      "origin": [
+        0,
+        0
+      ],
+      "dest": [
+        3,
+        0
+      ],
+      "transfer_penalty": 5,
+      "expected_cost": 11.0,
+      "expected_transfers": 0,
+      "expected_transfers_any": null,
+      "derivation": "R1: wait 5 + 6 = 11 (sanity check that the first piece works)."
+    }
+  ],
+  "config": {}
+}

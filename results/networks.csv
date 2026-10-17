@@ -1,0 +1,4 @@
+network,stops,routes,walk_links,graph_nodes,graph_edges,seed,dataset_path,median_heuristic_tightness
+city_80,80,20,16,262,542,42,data/synthetic_city,0.1367
+city_300,303,36,56,1003,2148,42,data/city_300,0.1798
+city_1000,1003,68,327,3503,8046,42,data/city_1000,0.2714

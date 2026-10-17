@@ -1,0 +1,89 @@
+{
+  "name": "t6_first_boarding_free_and_access_egress",
+  "description": "One route only. Origin/dest are POINTS near the stops. The penalty must NOT be charged for the first boarding.",
+  "network": {
+    "stops": [
+      {
+        "id": "O",
+        "name": "O",
+        "x": 0,
+        "y": 0
+      },
+      {
+        "id": "D",
+        "name": "D",
+        "x": 5,
+        "y": 0
+      }
+    ],
+    "routes": [
+      {
+        "id": "R",
+        "name": "R",
+        "mode": "bus",
+        "headway": 12,
+        "loop": false,
+        "stops": [
+          "O",
+          "D"
+        ],
+        "ride": [
+          0,
+          14
+        ]
+      }
+    ],
+    "walk_links": []
+  },
+  "queries": [
+    {
+      "label": "p=0",
+      "origin": [
+        -0.4,
+        0
+      ],
+      "dest": [
+        5.3,
+        0
+      ],
+      "transfer_penalty": 0,
+      "expected_cost": 30.5,
+      "expected_transfers": 0,
+      "expected_transfers_any": null,
+      "derivation": "Access walk 0.4 km = 6.0.  Wait 6.  Ride 14.  Egress walk 0.3 km = 4.5.  Total 30.5."
+    },
+    {
+      "label": "p=5",
+      "origin": [
+        -0.4,
+        0
+      ],
+      "dest": [
+        5.3,
+        0
+      ],
+      "transfer_penalty": 5,
+      "expected_cost": 30.5,
+      "expected_transfers": 0,
+      "expected_transfers_any": null,
+      "derivation": "Same journey, same 30.5: the first boarding is not a transfer."
+    },
+    {
+      "label": "p=100",
+      "origin": [
+        -0.4,
+        0
+      ],
+      "dest": [
+        5.3,
+        0
+      ],
+      "transfer_penalty": 100,
+      "expected_cost": 30.5,
+      "expected_transfers": 0,
+      "expected_transfers_any": null,
+      "derivation": "Even a huge penalty changes nothing: 0 transfers."
+    }
+  ],
+  "config": {}
+}

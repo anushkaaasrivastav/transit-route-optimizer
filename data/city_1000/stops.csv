@@ -1,0 +1,1004 @@
+stop_id,name,x_km,y_km
+S001,Alder Green Station,0.451,13.348
+S002,Yarrow Gate Station,1.582,13.542
+S003,Northgate Row Station,2.883,13.859
+S004,Vale Yard Station,4.197,14.017
+S005,Harbor Park Station,5.552,14.357
+S006,Fairview Row Station,6.618,14.608
+S007,Willow Square Station,7.819,14.833
+S008,Maple Cross Station,8.860,15.097
+S009,Pinewood Market Station,9.983,15.321
+S010,Garnet Hill Station,11.197,15.628
+S011,Linden Park Station,12.228,15.932
+S012,Harbor Market Station,13.350,16.127
+S013,Alder Lane Station,14.624,16.412
+S014,Garnet Court Station,15.773,16.696
+S015,Kestrel Park Station,16.983,16.918
+S016,Cedar Row Station,18.206,17.328
+S017,Ivy Gate Station,20.135,17.670
+S018,Upland Road Station,20.754,17.808
+S019,Maple Lane Station,21.944,18.006
+S020,Ridge Gate Station,23.212,18.404
+S021,Alder Square Station,24.398,18.553
+S022,Ivy Green Station,25.483,18.839
+S023,Sunhill Park Station,26.843,19.268
+S024,Brook Square Station,28.019,19.459
+S025,Thorne Court Station,29.093,19.682
+S026,Linden Yard Station,30.160,19.946
+S027,Kestrel Court Station,31.500,20.278
+S028,Thorne Road Station,32.761,20.546
+S029,Dunmore Court Station,34.117,20.737
+S030,Sunhill Market Station,35.430,20.990
+S031,Ivy Cross Station,36.651,21.320
+S032,Willow Court Station,38.046,21.622
+S033,Alder Road Station,39.224,21.873
+S034,Ridge Lane Station,40.431,22.293
+S035,Yarrow Yard Station,41.774,22.579
+S036,Vale Market Station,1.306,0.479
+S037,Linden Court Station,2.206,1.560
+S038,Cedar Lane Station,3.064,2.449
+S039,Kestrel Bridge Station,3.916,3.245
+S040,Kestrel Lane Station,4.637,4.151
+S041,Dunmore Yard Station,5.529,5.060
+S042,Juniper Road Station,6.166,6.048
+S043,Juniper Lane Station,7.026,6.998
+S044,Northgate Gate Station,7.965,8.036
+S045,Maple Yard Station,8.849,8.871
+S046,Elm Market Station,9.648,9.693
+S047,Northgate Lane Station,10.482,10.874
+S048,Yarrow Green Station,11.306,11.819
+S049,Thorne Bridge Station,12.164,12.523
+S050,Juniper Court Station,12.823,13.383
+S051,Ridge Cross Station,13.620,14.151
+S052,Juniper Park Station,14.380,15.212
+S053,Sunhill Bridge Station,15.284,16.227
+S054,Upland Gate Station,16.863,17.911
+S055,Oakley Hill Station,17.654,18.821
+S056,Oakley Lane Station,18.724,20.007
+S057,Garnet Road Station,19.400,20.877
+S058,Pinewood Row Station,20.062,21.507
+S059,Vale Square Station,21.370,22.888
+S060,Vale Lane Station,22.031,23.728
+S061,Thorne Gate Station,22.889,24.748
+S062,Harbor Lane Station,23.845,25.662
+S063,Juniper Market Station,24.670,26.620
+S064,Garnet Green Station,25.341,27.579
+S065,Alder Cross Station,26.260,28.505
+S066,Harbor Hill Station,27.026,29.301
+S067,Thorne Row Station,27.830,30.227
+S068,Cedar Hill Station,28.709,31.094
+S069,Willow Yard Station,29.639,32.168
+S070,Maple Hill Station,30.548,33.221
+S071,Maple Market Station,31.283,34.122
+S072,Elm Lane Station,32.168,35.007
+S073,Willow Cross Station,32.921,35.849
+S074,Zephyr Row Station,33.878,36.878
+S075,Dunmore Row Station,34.719,37.989
+S076,Northgate Market Station,35.561,38.812
+S077,Willow Road Station,36.326,39.874
+S078,Oakley Cross Station,37.192,40.832
+S079,Ridge Market Station,38.055,41.563
+S080,Oakley Green Station,20.392,0.452
+S081,Quarry Road Station,20.508,1.567
+S082,Zephyr Hill Station,20.417,2.979
+S083,Thorne Yard Station,20.447,4.256
+S084,Quarry Court Station,20.386,5.495
+S085,Ridge Hill Station,20.429,6.853
+S086,Fairview Yard Station,20.339,8.216
+S087,Pinewood Hill Station,20.196,9.348
+S088,Ivy Row Station,20.319,10.449
+S089,Zephyr Road Station,20.192,11.671
+S090,Pinewood Lane Station,20.235,12.894
+S091,Oakley Square Station,20.218,14.131
+S092,Willow Park Station,20.085,15.465
+S093,Kestrel Gate Station,20.053,16.779
+S094,Ridge Square Station,20.119,18.496
+S095,Elm Green Station,20.060,19.311
+S096,Harbor Court Station,20.150,20.526
+S097,Willow Green Station,19.938,23.098
+S098,Willow Market Station,19.994,24.255
+S099,Cedar Court Station,19.980,25.389
+S100,Northgate Cross Station,19.915,26.619
+S101,Maple Row Station,20.030,27.842
+S102,Sunhill Yard Station,19.903,29.007
+S103,Alder Row Station,19.897,30.163
+S104,Sunhill Court Station,19.800,31.570
+S105,Pinewood Cross Station,19.916,32.801
+S106,Zephyr Court Station,19.729,34.183
+S107,Northgate Road Station,19.881,35.455
+S108,Ridge Row Station,19.839,36.536
+S109,Thorne Market Station,19.730,37.972
+S110,Ivy Court Station,19.688,39.347
+S111,Maple Gate Station,19.749,40.774
+S112,Vale Row Station,36.822,0.485
+S113,Fairview Hill Station,35.887,1.372
+S114,Elm Bridge Station,35.063,2.373
+S115,Maple Bridge Station,34.203,3.239
+S116,Sunhill Lane Station,33.273,4.124
+S117,Upland Court Station,32.428,5.057
+S118,Elm Hill Station,31.580,6.198
+S119,Fairview Cross Station,30.759,6.990
+S120,Kestrel Market Station,29.878,7.988
+S121,Oakley Gate Station,29.137,8.872
+S122,Kestrel Row Station,28.203,9.657
+S123,Maple Park Station,27.331,10.641
+S124,Ivy Square Station,26.589,11.556
+S125,Yarrow Road Station,25.718,12.359
+S126,Brook Gate Station,24.834,13.372
+S127,Upland Cross Station,24.113,14.190
+S128,Zephyr Cross Station,23.337,15.154
+S129,Alder Bridge Station,22.353,16.201
+S130,Oakley Yard Station,21.260,17.146
+S131,Linden Green Station,18.044,20.720
+S132,Fairview Park Station,17.163,21.802
+S133,Dunmore Bridge Station,16.222,22.828
+S134,Alder Park Station,15.381,23.686
+S135,Maple Court Station,14.534,24.430
+S136,Cedar Bridge Station,13.616,25.455
+S137,Willow Lane Station,12.707,26.420
+S138,Harbor Square Station,11.825,27.365
+S139,Willow Row Station,10.955,28.511
+S140,Sunhill Row Station,10.062,29.467
+S141,Ridge Court Station,9.361,30.269
+S142,Vale Gate Station,8.333,31.183
+S143,Cedar Road Station,7.521,32.033
+S144,Alder Court Station,6.702,33.061
+S145,Pinewood Square Station,5.711,34.072
+S146,Upland Hill Station,5.025,34.953
+S147,Northgate Green Station,4.161,35.660
+S148,Upland Park Station,3.422,36.479
+S149,Northgate Yard Station,2.545,37.397
+S150,Cedar Park Station,1.779,38.275
+S151,Oakley Market Station,0.894,39.213
+S152,Oakley Park,22.197,8.959
+S153,Sunhill Court,22.114,9.585
+S154,Juniper Bridge,21.900,10.171
+S155,Thorne Cross,21.757,10.853
+S156,Thorne Yard,21.702,11.506
+S157,Dunmore Row,21.517,12.094
+S158,Garnet Lane,21.414,12.742
+S159,Garnet Park,21.163,13.346
+S160,Vale Square,21.186,14.008
+S161,Fairview Market,20.960,14.594
+S162,Fairview Road,20.766,15.180
+S163,Cedar Green,20.655,15.801
+S164,Alder Court,20.414,16.390
+S165,Oakley Yard,20.423,17.062
+S166,Thorne Hill,19.923,18.874
+S167,Juniper Cross,19.781,19.566
+S168,Harbor Park,19.638,20.157
+S169,Willow Park,19.388,21.433
+S170,Willow Hill,19.178,22.113
+S171,Cedar Lane,19.153,22.744
+S172,Upland Bridge,18.937,23.333
+S173,Vale Row,18.962,23.952
+S174,Garnet Court,18.775,24.515
+S175,Dunmore Road,18.541,25.185
+S176,Harbor Lane,18.518,25.877
+S177,Elm Park,18.348,26.438
+S178,Elm Square,18.195,27.064
+S179,Brook Green,18.061,27.759
+S180,Yarrow Bridge,17.943,28.444
+S181,Juniper Hill,17.726,29.002
+S182,Dunmore Hill,17.537,29.633
+S183,Willow Court,17.377,30.215
+S184,Ivy Road,17.393,30.941
+S185,Ridge Hill,17.148,31.517
+S186,Oakley Square,17.001,32.136
+S187,Northgate Yard,16.814,32.774
+S188,Upland Yard,7.833,32.298
+S189,Fairview Yard,8.424,32.448
+S190,Brook Gate,8.923,32.569
+S191,Brook Park,9.511,32.689
+S192,Linden Gate,10.075,32.617
+S193,Northgate Green,10.614,32.761
+S194,Harbor Road,11.213,32.837
+S195,Northgate Bridge,11.799,33.067
+S196,Fairview Green,12.306,33.224
+S197,Fairview Square,12.849,33.262
+S198,Thorne Court,13.406,33.304
+S199,Thorne Lane,13.962,33.393
+S200,Harbor Hill,14.490,33.419
+S201,Sunhill Green,15.036,33.648
+S202,Upland Park,15.580,33.577
+S203,Vale Cross,16.136,33.864
+S204,Vale Road,16.678,33.941
+S205,Oakley Gate,17.241,33.846
+S206,Sunhill Park,17.790,34.144
+S207,Upland Court,18.363,34.199
+S208,Pinewood Square,18.970,34.252
+S209,Harbor Court,20.115,34.432
+S210,Sunhill Gate,20.701,34.652
+S211,Alder Lane,21.337,34.608
+S212,Maple Park,21.856,34.848
+S213,Alder Bridge,22.426,34.815
+S214,Yarrow Cross,22.956,35.051
+S215,Pinewood Park,23.497,35.162
+S216,Zephyr Row,24.100,35.184
+S217,Harbor Bridge,24.606,35.347
+S218,Linden Market,25.122,35.436
+S219,Upland Market,25.695,35.324
+S220,Thorne Park,26.291,35.426
+S221,Yarrow Row,26.898,35.510
+S222,Vale Lane,27.381,35.801
+S223,Elm Lane,28.023,35.718
+S224,Dunmore Lane,28.604,35.864
+S225,Upland Cross,29.169,35.993
+S226,Juniper Row,29.683,36.065
+S227,Oakley Cross,30.251,36.213
+S228,Yarrow Green,30.855,36.339
+S229,Cedar Park,31.461,36.410
+S230,Kestrel Yard,32.018,36.537
+S231,Garnet Green,32.543,36.643
+S232,Ridge Gate,33.095,36.627
+S233,Yarrow Yard,19.641,18.543
+S234,Elm Court,19.222,17.776
+S235,Upland Square,18.803,17.008
+S236,Pinewood Bridge,18.384,16.240
+S237,Northgate Park,17.965,15.473
+S238,Brook Yard,17.546,14.705
+S239,Oakley Hill,17.127,13.937
+S240,Harbor Gate,16.708,13.170
+S241,Linden Road,16.289,12.402
+S242,Upland Gate,15.870,11.634
+S243,Brook Court,15.451,10.867
+S244,Ivy Market,15.032,10.099
+S245,Alder Cross,14.613,9.331
+S246,Kestrel Market,14.194,8.564
+S247,Elm Row,13.775,7.796
+S248,Ridge Cross,22.963,14.092
+S249,Alder Green,23.881,14.432
+S250,Ivy Yard,24.839,14.884
+S251,Zephyr Park,25.621,15.532
+S252,Kestrel Gate,26.442,16.258
+S253,Elm Bridge,27.114,16.982
+S254,Vale Court,27.681,17.967
+S255,Yarrow Lane,28.143,18.904
+S256,Alder Square,28.285,19.899
+S257,Yarrow Road,28.350,20.996
+S258,Northgate Hill,28.485,21.913
+S259,Kestrel Green,28.163,22.988
+S260,Linden Park,27.912,24.008
+S261,Yarrow Gate,27.434,24.785
+S262,Zephyr Bridge,26.813,25.733
+S263,Thorne Square,26.207,26.512
+S264,Fairview Row,25.368,27.143
+S265,Ivy Hill,24.467,27.659
+S266,Oakley Court,23.544,28.120
+S267,Zephyr Road,22.483,28.356
+S268,Dunmore Gate,21.610,28.454
+S269,Northgate Square,20.575,28.402
+S270,Juniper Lane,19.562,28.224
+S271,Vale Bridge,18.568,27.903
+S272,Pinewood Road,17.621,27.432
+S273,Vale Park,16.685,26.838
+S274,Brook Market,16.051,26.228
+S275,Maple Bridge,15.301,25.310
+S276,Brook Cross,14.418,23.532
+S277,Garnet Row,14.031,22.472
+S278,Ivy Park,14.077,21.547
+S279,Kestrel Square,14.048,20.484
+S280,Alder Hill,14.263,19.573
+S281,Yarrow Court,14.491,18.585
+S282,Maple Road,14.871,17.533
+S283,Willow Market,16.241,15.892
+S284,Quarry Road,17.035,15.375
+S285,Linden Square,17.892,14.783
+S286,Maple Yard,18.795,14.324
+S287,Cedar Gate,19.815,14.091
+S288,Willow Lane,21.952,14.049
+S289,Yarrow Hill,18.659,7.799
+S290,Linden Lane,18.731,8.445
+S291,Yarrow Market,18.734,9.087
+S292,Oakley Bridge,18.635,9.774
+S293,Oakley Market,18.785,10.364
+S294,Ridge Market,18.851,11.001
+S295,Pinewood Market,18.883,11.717
+S296,Sunhill Hill,18.900,12.313
+S297,Oakley Row,19.137,12.958
+S298,Quarry Court,19.128,13.632
+S299,Thorne Green,19.209,14.343
+S300,Ivy Cross,19.185,15.045
+S301,Upland Hill,19.435,15.743
+S302,Dunmore Yard,19.511,16.413
+S303,Quarry Square,19.351,17.115
+S304,Juniper Square,19.591,19.038
+S305,Zephyr Green,19.836,21.008
+S306,Quarry Green,19.870,22.354
+S307,Linden Cross,20.066,23.611
+S308,Northgate Cross,20.201,24.990
+S309,Maple Square,20.249,25.595
+S310,Alder Gate,20.344,26.190
+S311,Elm Green,20.465,26.856
+S312,Pinewood Yard,20.434,27.469
+S313,Alder Park,20.719,28.871
+S314,Ridge Yard,20.686,29.556
+S315,Thorne Road,20.791,30.141
+S316,Dunmore Cross,20.853,30.853
+S317,Upland Row,20.956,31.536
+S318,Cedar Square,21.035,32.253
+S319,Upland Road,20.945,32.894
+S320,Sunhill Market,21.068,33.542
+S321,Willow Green,21.139,34.225
+S322,Juniper Court,21.121,34.907
+S323,Fairview Lane,21.253,35.568
+S324,Quarry Gate,21.412,36.166
+S325,Cedar Road,21.372,36.854
+S326,Dunmore Green,20.633,5.135
+S327,Cedar Hill,19.918,5.389
+S328,Vale Gate,19.205,5.594
+S329,Willow Square,18.613,5.840
+S330,Ridge Road,17.918,6.106
+S331,Juniper Park,17.322,6.440
+S332,Willow Yard,16.626,6.634
+S333,Upland Green,15.945,6.850
+S334,Harbor Square,15.269,7.114
+S335,Elm Market,14.630,7.213
+S336,Pinewood Cross,13.982,7.414
+S337,Ridge Green,13.356,7.646
+S338,Zephyr Court,12.713,8.109
+S339,Sunhill Square,12.015,8.288
+S340,Elm Gate,11.292,8.469
+S341,Linden Green,10.619,8.849
+S342,Quarry Cross,9.896,8.948
+S343,Quarry Park,9.358,9.325
+S344,Ridge Park,8.640,9.509
+S345,Ridge Square,7.982,9.695
+S346,Quarry Lane,7.302,9.913
+S347,Fairview Bridge,6.611,10.241
+S348,Thorne Gate,5.902,10.446
+S349,Sunhill Cross,5.256,10.725
+S350,Brook Lane,4.591,11.004
+S351,Ivy Lane,3.945,11.113
+S352,Harbor Row,3.316,11.430
+S353,Cedar Yard,2.661,11.699
+S354,Pinewood Hill,2.021,11.883
+S355,Garnet Gate,1.311,12.181
+S356,Upland Lane,32.260,6.054
+S357,Dunmore Court,32.940,5.909
+S358,Maple Cross,33.620,5.765
+S359,Sunhill Road,34.301,5.620
+S360,Cedar Court,34.981,5.476
+S361,Quarry Hill,35.661,5.331
+S362,Ivy Bridge,36.341,5.187
+S363,Linden Row,37.021,5.042
+S364,Kestrel Road,37.701,4.898
+S365,Willow Gate,38.382,4.753
+S366,Oakley Green,39.062,4.609
+S367,Fairview Court,39.742,4.464
+S368,Thorne Row,40.422,4.320
+S369,Maple Green,41.102,4.175
+S370,Vale Market,41.782,4.031
+S371,Pinewood Gate,25.276,28.777
+S372,Harbor Cross,24.239,29.280
+S373,Ivy Court,23.343,29.559
+S374,Kestrel Park,22.340,29.740
+S375,Sunhill Yard,21.226,29.736
+S376,Linden Yard,20.285,29.681
+S377,Willow Row,19.367,29.524
+S378,Juniper Yard,18.256,29.217
+S379,Juniper Gate,17.406,28.838
+S380,Thorne Market,16.456,28.452
+S381,Harbor Green,15.733,27.711
+S382,Pinewood Green,14.863,27.090
+S383,Zephyr Market,14.268,26.367
+S384,Oakley Road,13.359,24.462
+S385,Cedar Bridge,12.923,23.587
+S386,Garnet Bridge,12.717,22.541
+S387,Fairview Gate,12.600,21.537
+S388,Garnet Yard,12.611,20.534
+S389,Brook Hill,12.898,19.559
+S390,Elm Road,12.999,18.561
+S391,Brook Square,13.462,17.542
+S392,Linden Court,13.962,16.706
+S393,Ridge Court,14.540,15.781
+S394,Alder Row,15.175,15.158
+S395,Oakley Lane,15.876,14.500
+S396,Northgate Road,16.694,13.881
+S397,Maple Market,17.779,13.381
+S398,Alder Market,18.729,13.113
+S399,Garnet Square,19.623,12.731
+S400,Dunmore Bridge,20.728,12.626
+S401,Willow Cross,22.578,12.780
+S402,Harbor Yard,23.656,13.040
+S403,Sunhill Bridge,25.447,13.874
+S404,Zephyr Lane,26.294,14.441
+S405,Juniper Green,27.233,14.993
+S406,Brook Road,27.825,15.845
+S407,Maple Row,28.517,16.663
+S408,Harbor Market,28.998,17.365
+S409,Kestrel Lane,29.326,18.322
+S410,Garnet Cross,29.685,19.335
+S411,Cedar Market,29.845,20.390
+S412,Zephyr Hill,29.784,21.484
+S413,Kestrel Row,29.774,22.403
+S414,Zephyr Gate,29.442,23.327
+S415,Kestrel Court,29.118,24.361
+S416,Brook Bridge,28.708,25.227
+S417,Elm Cross,28.269,26.212
+S418,Elm Yard,27.602,26.999
+S419,Brook Row,26.801,27.732
+S420,Sunhill Row,7.425,14.655
+S421,Maple Gate,8.437,15.461
+S422,Cedar Row,8.850,15.886
+S423,Northgate Lane,9.380,16.146
+S424,Vale Green,9.722,16.644
+S425,Quarry Yard,10.210,17.108
+S426,Ridge Bridge,10.722,17.443
+S427,Sunhill Lane,11.157,17.917
+S428,Maple Hill,11.697,18.293
+S429,Kestrel Hill,12.128,18.736
+S430,Garnet Road,12.638,19.169
+S431,Maple Lane,13.625,19.848
+S432,Northgate Court,14.475,20.762
+S433,Alder Yard,14.902,21.251
+S434,Garnet Market,15.412,21.594
+S435,Ivy Row,15.942,22.001
+S436,Garnet Hill,16.374,22.414
+S437,Dunmore Park,16.894,22.755
+S438,Vale Hill,17.345,23.214
+S439,Kestrel Bridge,17.858,23.639
+S440,Linden Hill,18.344,23.995
+S441,Vale Yard,19.283,24.848
+S442,Maple Court,21.097,26.423
+S443,Pinewood Lane,21.490,26.919
+S444,Pinewood Court,22.037,27.256
+S445,Zephyr Cross,22.401,27.720
+S446,Zephyr Yard,22.847,28.187
+S447,Ivy Gate,23.478,28.495
+S448,Willow Bridge,23.822,29.043
+S449,Zephyr Square,24.923,29.841
+S450,Yarrow Park,25.329,30.340
+S451,Yarrow Square,25.837,30.654
+S452,Pinewood Row,26.309,31.030
+S453,Ivy Square,26.730,31.443
+S454,Elm Hill,27.105,31.934
+S455,Dunmore Square,27.540,32.369
+S456,Quarry Bridge,28.106,32.724
+S457,Juniper Market,28.597,33.144
+S458,Quarry Market,29.108,33.449
+S459,Northgate Gate,29.439,34.008
+S460,Ridge Lane,29.899,34.419
+S461,Cedar Cross,30.435,34.753
+S462,Willow Road,30.905,35.237
+S463,Thorne Bridge,31.443,35.599
+S464,Fairview Park,31.864,36.096
+S465,Fairview Cross,32.860,36.852
+S466,Ridge Row,5.023,7.977
+S467,Ivy Green,5.219,8.635
+S468,Linden Bridge,5.376,9.256
+S469,Kestrel Cross,5.636,9.858
+S470,Northgate Row,5.899,11.277
+S471,Fairview Yard 471,6.170,11.905
+S472,Quarry Court 472,6.235,12.576
+S473,Northgate Market,6.451,13.192
+S474,Juniper Road,6.779,13.771
+S475,Dunmore Market,6.918,14.454
+S476,Quarry Row,7.083,15.081
+S477,Fairview Hill,7.261,15.799
+S478,Juniper Park 478,7.356,16.496
+S479,Pinewood Row 479,7.540,17.113
+S480,Willow Green 480,7.746,17.756
+S481,Maple Court 481,8.052,18.413
+S482,Sunhill Hill 482,8.270,19.133
+S483,Brook Road 483,8.278,19.890
+S484,Alder Road,8.676,20.492
+S485,Thorne Cross 485,8.679,21.191
+S486,Upland Square 486,8.826,21.831
+S487,Thorne Park 487,9.120,22.529
+S488,Ridge Hill 488,9.418,23.181
+S489,Garnet Green 489,9.431,23.848
+S490,Vale Green 490,9.775,24.425
+S491,Dunmore Market 491,9.937,25.149
+S492,Ridge Square 492,10.074,25.796
+S493,Quarry Park 493,10.146,26.531
+S494,Upland Square 494,10.401,27.128
+S495,Thorne Green 495,10.724,27.827
+S496,Thorne Row 496,10.957,29.312
+S497,Quarry Square 497,11.122,29.935
+S498,Upland Road 498,11.491,30.606
+S499,Ridge Yard 499,11.714,31.337
+S500,Pinewood Yard 500,11.830,32.094
+S501,Vale Court 501,12.014,32.804
+S502,Cedar Green 502,12.287,34.147
+S503,Elm Row 503,12.575,34.762
+S504,Juniper Row 504,12.712,35.401
+S505,Garnet Bridge 505,12.898,36.094
+S506,Yarrow Lane 506,16.235,17.377
+S507,Garnet Park 507,14.978,16.310
+S508,Dunmore Gate 508,13.722,15.243
+S509,Juniper Bridge 509,13.093,14.710
+S510,Willow Gate 510,12.465,14.176
+S511,Pinewood Green 511,11.837,13.643
+S512,Oakley Gate 512,11.209,13.109
+S513,Willow Gate 513,10.580,12.575
+S514,Cedar Cross 514,9.952,12.042
+S515,Fairview Bridge 515,9.324,11.508
+S516,Linden Gate 516,23.302,29.214
+S517,Elm Green 517,18.972,29.270
+S518,Elm Yard 518,17.066,28.543
+S519,Ivy Lane 519,16.123,27.779
+S520,Zephyr Gate 520,15.219,27.145
+S521,Northgate Market 521,13.980,25.322
+S522,Harbor Lane 522,13.154,23.375
+S523,Yarrow Bridge 523,12.796,21.149
+S524,Juniper Road 524,12.866,20.082
+S525,Linden Lane 525,13.115,19.001
+S526,Kestrel Row 526,13.561,17.940
+S527,Cedar Gate 527,23.328,13.064
+S528,Cedar Gate 528,24.464,13.573
+S529,Oakley Yard 529,27.104,15.296
+S530,Oakley Court 530,28.448,17.015
+S531,Dunmore Cross 531,28.841,17.989
+S532,Willow Lane 532,29.366,18.988
+S533,Elm Lane 533,29.493,20.056
+S534,Upland Court 534,27.837,26.360
+S535,Garnet Hill 535,27.177,27.041
+S536,Kestrel Square 536,26.315,27.760
+S537,Elm Court 537,25.458,28.492
+S538,Kestrel Lane 538,24.408,28.882
+S539,Pinewood Park 539,30.999,25.067
+S540,Alder Lane 540,30.185,24.999
+S541,Fairview Gate 541,29.522,25.154
+S542,Ridge Row 542,28.099,25.189
+S543,Ridge Court 543,27.350,25.300
+S544,Brook Hill 544,26.669,25.373
+S545,Harbor Square 545,25.917,25.562
+S546,Cedar Cross 546,25.108,25.470
+S547,Thorne Yard 547,24.328,25.581
+S548,Thorne Bridge 548,22.968,25.663
+S549,Harbor Hill 549,22.223,25.825
+S550,Willow Road 550,21.462,25.839
+S551,Elm Road 551,20.818,26.015
+S552,Elm Market 552,20.059,26.040
+S553,Ridge Road 553,19.288,26.198
+S554,Elm Road 554,17.832,26.301
+S555,Willow Row 555,17.105,26.377
+S556,Juniper Hill 556,16.438,26.396
+S557,Zephyr Court 557,15.772,26.417
+S558,Kestrel Cross 558,15.054,26.636
+S559,Juniper Cross 559,14.341,26.706
+S560,Maple Lane 560,13.546,26.673
+S561,Brook Road 561,12.761,26.895
+S562,Pinewood Yard 562,11.988,26.798
+S563,Kestrel Hill 563,11.218,27.061
+S564,Zephyr Park 564,9.773,27.251
+S565,Oakley Park 565,9.055,27.326
+S566,Garnet Cross 566,8.261,27.188
+S567,Alder Gate 567,7.500,27.432
+S568,Elm Row 568,6.759,27.337
+S569,Dunmore Square 569,5.986,27.450
+S570,Garnet Yard 570,5.269,27.664
+S571,Sunhill Lane 571,13.598,4.436
+S572,Juniper Yard 572,13.426,5.200
+S573,Upland Lane 573,13.338,5.940
+S574,Kestrel Row 574,13.170,6.660
+S575,Harbor Lane 575,13.002,7.350
+S576,Fairview Gate 576,13.052,8.047
+S577,Garnet Park 577,12.915,8.752
+S578,Kestrel Row 578,12.766,9.421
+S579,Brook Gate 579,12.516,10.097
+S580,Alder Bridge 580,12.461,10.832
+S581,Pinewood Green 581,12.387,11.479
+S582,Sunhill Lane 582,12.110,12.198
+S583,Northgate Gate 583,12.012,12.839
+S584,Vale Park 584,11.742,14.128
+S585,Northgate Square 585,11.649,14.845
+S586,Zephyr Lane 586,11.493,15.476
+S587,Ivy Hill 587,11.358,16.230
+S588,Cedar Square 588,11.249,16.911
+S589,Sunhill Yard 589,11.171,17.605
+S590,Northgate Lane 590,10.927,18.330
+S591,Vale Court 591,10.848,18.980
+S592,Brook Bridge 592,10.650,19.744
+S593,Sunhill Cross 593,10.410,20.449
+S594,Cedar Lane 594,10.256,21.201
+S595,Thorne Lane 595,10.296,21.883
+S596,Zephyr Green 596,10.169,22.638
+S597,Yarrow Hill 597,9.847,23.379
+S598,Ridge Road 598,9.608,24.769
+S599,Kestrel Lane 599,9.440,25.513
+S600,Zephyr Yard 600,9.492,26.261
+S601,Sunhill Row 601,9.337,26.990
+S602,Harbor Park 602,22.182,24.371
+S603,Cedar Bridge 603,22.334,25.014
+S604,Maple Cross 604,22.485,25.657
+S605,Vale Green 605,22.636,26.300
+S606,Northgate Gate 606,22.788,26.943
+S607,Quarry Road 607,22.939,27.586
+S608,Juniper Square 608,23.241,28.872
+S609,Willow Yard 609,23.544,30.158
+S610,Willow Lane 610,23.695,30.801
+S611,Kestrel Square 611,23.847,31.444
+S612,Maple Bridge 612,23.998,32.087
+S613,Thorne Gate 613,24.149,32.729
+S614,Quarry Road 614,24.301,33.372
+S615,Sunhill Park 615,24.452,34.015
+S616,Harbor Cross 616,24.603,34.658
+S617,Quarry Row 617,11.266,22.529
+S618,Garnet Park 618,11.178,21.390
+S619,Yarrow Row 619,11.094,20.397
+S620,Kestrel Bridge 620,11.381,19.244
+S621,Oakley Lane 621,11.988,17.164
+S622,Ridge Cross 622,13.006,15.354
+S623,Vale Market 623,13.785,14.525
+S624,Willow Green 624,14.417,13.682
+S625,Thorne Gate 625,15.290,12.955
+S626,Garnet Park 626,17.248,11.996
+S627,Northgate Square 627,18.280,11.500
+S628,Yarrow Yard 628,19.384,11.199
+S629,Upland Cross 629,20.443,11.078
+S630,Harbor Court 630,21.575,11.118
+S631,Cedar Bridge 631,22.713,11.244
+S632,Alder Hill 632,23.755,11.381
+S633,Quarry Cross 633,24.737,11.807
+S634,Oakley Park 634,26.661,12.694
+S635,Maple Park 635,27.580,13.366
+S636,Cedar Market 636,28.389,14.174
+S637,Upland Row 637,29.218,14.985
+S638,Zephyr Bridge 638,29.744,15.743
+S639,Oakley Market 639,30.264,16.837
+S640,Ivy Row 640,30.757,17.855
+S641,Upland Gate 641,31.028,18.904
+S642,Harbor Square 642,31.149,19.834
+S643,Garnet Hill 643,31.342,20.919
+S644,Maple Cross 644,31.391,22.115
+S645,Northgate Square 645,31.195,23.192
+S646,Fairview Gate 646,30.887,24.286
+S647,Ridge Green 647,30.420,25.215
+S648,Maple Hill 648,29.949,26.279
+S649,Cedar Court 649,29.458,27.149
+S650,Vale Yard 650,28.738,28.055
+S651,Willow Hill 651,27.944,28.799
+S652,Maple Bridge 652,26.069,29.946
+S653,Thorne Lane 653,24.109,30.816
+S654,Northgate Lane 654,23.165,31.129
+S655,Juniper Lane 655,22.042,31.392
+S656,Dunmore Market 656,20.859,31.239
+S657,Sunhill Row 657,19.831,31.195
+S658,Ridge Court 658,18.813,31.011
+S659,Vale Gate 659,17.654,30.630
+S660,Zephyr Hill 660,16.642,30.319
+S661,Linden Court 661,15.663,29.791
+S662,Thorne Yard 662,14.776,28.996
+S663,Yarrow Hill 663,14.114,28.319
+S664,Oakley Cross 664,13.316,27.545
+S665,Zephyr Green 665,12.203,25.621
+S666,Upland Lane 666,11.628,24.752
+S667,Oakley Yard 667,11.470,23.534
+S668,Quarry Cross 668,18.917,6.603
+S669,Ridge Market 669,18.658,7.211
+S670,Upland Green 670,18.618,10.752
+S671,Willow Bridge 671,18.607,11.350
+S672,Northgate Park 672,18.450,11.914
+S673,Maple Hill 673,18.444,12.470
+S674,Yarrow Hill 674,18.428,13.565
+S675,Garnet Hill 675,18.438,14.164
+S676,Fairview Green 676,18.390,14.748
+S677,Alder Lane 677,18.455,15.318
+S678,Alder Park 678,18.432,15.867
+S679,Elm Park 679,18.142,17.634
+S680,Sunhill Road 680,18.200,18.282
+S681,Maple Gate 681,18.170,18.847
+S682,Kestrel Cross 682,18.047,19.423
+S683,Oakley Hill 683,18.076,19.969
+S684,Alder Park 684,18.038,21.185
+S685,Oakley Yard 685,17.888,21.716
+S686,Willow Hill 686,17.990,22.305
+S687,Elm Square 687,17.983,22.878
+S688,Oakley Green 688,17.984,24.114
+S689,Harbor Cross 689,17.805,24.710
+S690,Oakley Green 690,17.875,25.265
+S691,Fairview Green 691,17.750,25.796
+S692,Juniper Park 692,17.824,27.053
+S693,Cedar Bridge 693,17.623,28.301
+S694,Vale Bridge 694,17.339,32.304
+S695,Upland Bridge 695,17.386,32.889
+S696,Pinewood Yard 696,17.343,33.541
+S697,Willow Gate 697,17.417,34.158
+S698,Elm Hill 698,30.833,27.117
+S699,Maple Gate 699,30.234,27.303
+S700,Ridge Hill 700,29.619,27.675
+S701,Dunmore Lane 701,29.054,27.975
+S702,Northgate Road 702,28.445,28.190
+S703,Zephyr Green 703,27.311,28.903
+S704,Kestrel Cross 704,26.740,29.139
+S705,Sunhill Cross 705,26.307,29.587
+S706,Elm Park 706,25.683,29.774
+S707,Oakley Square 707,24.689,30.465
+S708,Cedar Park 708,22.383,31.625
+S709,Quarry Road 709,21.758,31.945
+S710,Yarrow Square 710,20.605,32.597
+S711,Maple Park 711,19.400,33.300
+S712,Thorne Lane 712,18.799,33.616
+S713,Upland Green 713,18.189,33.759
+S714,Oakley Yard 714,17.049,34.555
+S715,Elm Green 715,16.473,34.874
+S716,Juniper Hill 716,15.871,35.070
+S717,Quarry Bridge 717,15.306,35.537
+S718,Ivy Court 718,14.751,35.794
+S719,Brook Hill 719,14.143,35.939
+S720,Vale Green 720,13.581,36.308
+S721,Cedar Road 721,12.940,36.649
+S722,Sunhill Hill 722,12.413,36.950
+S723,Alder Green 723,11.787,37.306
+S724,Juniper Square 724,11.320,37.726
+S725,Juniper Court 725,10.710,37.952
+S726,Elm Gate 726,10.089,38.296
+S727,Zephyr Square 727,9.443,38.581
+S728,Brook Yard 728,8.850,38.884
+S729,Thorne Cross 729,8.205,39.207
+S730,Pinewood Hill 730,7.650,39.562
+S731,Sunhill Hill 731,7.049,39.837
+S732,Garnet Row 732,6.503,40.190
+S733,Yarrow Market 733,18.723,17.402
+S734,Alder Cross 734,17.394,18.024
+S735,Ridge Court 735,16.729,18.335
+S736,Northgate Row 736,16.064,18.647
+S737,Alder Gate 737,15.399,18.958
+S738,Zephyr Cross 738,14.734,19.269
+S739,Maple Yard 739,12.075,20.514
+S740,Maple Square 740,11.410,20.825
+S741,Upland Road 741,10.746,21.137
+S742,Fairview Row 742,28.740,22.780
+S743,Maple Market 743,28.337,23.862
+S744,Northgate Cross 744,27.811,24.897
+S745,Juniper Park 745,27.292,25.788
+S746,Oakley Bridge 746,26.460,26.704
+S747,Ivy Green 747,25.758,27.415
+S748,Maple Court 748,24.715,28.039
+S749,Thorne Yard 749,22.639,28.655
+S750,Maple Yard 750,21.367,28.694
+S751,Cedar Court 751,20.303,28.715
+S752,Kestrel Cross 752,19.222,28.423
+S753,Quarry Row 753,18.153,28.122
+S754,Oakley Cross 754,17.220,27.589
+S755,Quarry Row 755,16.192,26.920
+S756,Linden Road 756,15.482,26.147
+S757,Zephyr Yard 757,14.811,25.292
+S758,Alder Yard 758,14.201,24.263
+S759,Linden Court 759,13.839,23.180
+S760,Oakley Bridge 760,13.636,21.958
+S761,Quarry Court 761,13.683,20.837
+S762,Fairview Road 762,14.075,18.680
+S763,Willow Yard 763,15.060,16.664
+S764,Alder Square 764,15.835,15.747
+S765,Willow Market 765,16.759,15.175
+S766,Sunhill Lane 766,19.798,13.664
+S767,Northgate Road 767,21.029,13.704
+S768,Oakley Row 768,22.170,13.705
+S769,Thorne Row 769,23.278,13.925
+S770,Northgate Bridge 770,25.290,14.765
+S771,Kestrel Road 771,26.251,15.569
+S772,Alder Green 772,27.070,16.276
+S773,Vale Hill 773,27.734,17.188
+S774,Elm Market 774,28.209,18.292
+S775,Kestrel Cross 775,28.552,19.214
+S776,Willow Park 776,28.805,20.431
+S777,Maple Square 777,28.862,21.611
+S778,Alder Cross 778,1.560,10.403
+S779,Willow Road 779,2.273,10.828
+S780,Dunmore Yard 780,3.062,11.082
+S781,Linden Lane 781,3.698,11.489
+S782,Linden Yard 782,4.478,11.917
+S783,Garnet Square 783,5.184,12.441
+S784,Northgate Court 784,5.898,12.707
+S785,Elm Yard 785,7.332,13.468
+S786,Oakley Yard 786,8.129,13.787
+S787,Linden Square 787,8.786,14.192
+S788,Quarry Hill 788,9.549,14.494
+S789,Willow Yard 789,10.249,14.860
+S790,Oakley Square 790,10.984,15.386
+S791,Willow Row 791,11.722,15.700
+S792,Ivy Cross 792,13.161,16.480
+S793,Juniper Bridge 793,14.533,17.375
+S794,Thorne Yard 794,15.369,17.716
+S795,Northgate Hill 795,16.087,18.144
+S796,Juniper Lane 796,18.936,19.596
+S797,Maple Court 797,21.090,20.714
+S798,Dunmore Hill 798,21.921,21.023
+S799,Harbor Road 799,22.678,21.476
+S800,Garnet Market 800,23.316,21.899
+S801,Brook Lane 801,23.955,22.341
+S802,Ivy Yard 802,24.721,22.631
+S803,Harbor Row 803,25.415,23.029
+S804,Garnet Park 804,26.226,23.357
+S805,Thorne Yard 805,26.877,23.814
+S806,Elm Bridge 806,27.639,24.236
+S807,Ivy Lane 807,28.380,24.469
+S808,Zephyr Row 808,29.015,25.027
+S809,Northgate Park 809,29.726,25.410
+S810,Pinewood Park 810,30.426,25.665
+S811,Dunmore Row 811,31.152,26.156
+S812,Ivy Yard 812,31.808,26.496
+S813,Kestrel Green 813,19.023,6.044
+S814,Maple Cross 814,18.616,6.556
+S815,Kestrel Lane 815,18.080,6.994
+S816,Elm Road 816,17.633,7.431
+S817,Yarrow Yard 817,17.284,8.013
+S818,Northgate Square 818,16.824,8.405
+S819,Elm Road 819,16.380,8.883
+S820,Linden Row 820,15.926,9.399
+S821,Linden Road 821,15.453,9.766
+S822,Fairview Cross 822,14.742,10.711
+S823,Linden Hill 823,14.281,11.085
+S824,Juniper Hill 824,14.025,11.631
+S825,Upland Lane 825,13.509,11.981
+S826,Kestrel Yard 826,13.186,12.560
+S827,Dunmore Court 827,12.671,12.870
+S828,Maple Road 828,12.263,13.418
+S829,Ridge Market 829,11.418,14.311
+S830,Dunmore Road 830,11.043,14.850
+S831,Sunhill Yard 831,10.594,15.292
+S832,Yarrow Park 832,10.101,15.620
+S833,Brook Hill 833,9.735,16.075
+S834,Garnet Bridge 834,9.313,16.514
+S835,Elm Hill 835,8.959,16.993
+S836,Elm Green 836,8.506,17.475
+S837,Northgate Row 837,8.072,17.917
+S838,Linden Square 838,7.746,18.442
+S839,Willow Green 839,7.188,18.767
+S840,Ivy Park 840,6.834,19.268
+S841,Dunmore Square 841,6.450,19.740
+S842,Quarry Bridge 842,6.042,20.199
+S843,Thorne Road 843,38.405,22.048
+S844,Vale Yard 844,37.586,22.222
+S845,Alder Park 845,36.767,22.397
+S846,Ridge Lane 846,35.949,22.572
+S847,Elm Yard 847,35.130,22.747
+S848,Zephyr Park 848,34.311,22.921
+S849,Upland Market 849,33.492,23.096
+S850,Cedar Row 850,32.673,23.271
+S851,Zephyr Cross 851,31.854,23.446
+S852,Sunhill Yard 852,31.035,23.620
+S853,Garnet Road 853,30.216,23.795
+S854,Pinewood Road 854,29.398,23.970
+S855,Quarry Bridge 855,28.579,24.144
+S856,Willow Square 856,26.941,24.494
+S857,Quarry Yard 857,25.676,15.202
+S858,Yarrow Market 858,27.221,16.600
+S859,Alder Bridge 859,27.692,17.500
+S860,Ivy Park 860,28.705,22.315
+S861,Yarrow Row 861,28.346,23.485
+S862,Willow Square 862,27.961,24.387
+S863,Ivy Lane 863,26.199,26.884
+S864,Fairview Court 864,19.508,28.544
+S865,Ivy Row 865,18.546,28.307
+S866,Maple Yard 866,17.545,27.834
+S867,Vale Square 867,16.731,27.193
+S868,Upland Road 868,16.049,26.589
+S869,Vale Yard 869,15.336,25.722
+S870,Pinewood Row 870,14.791,24.929
+S871,Juniper Court 871,13.874,20.096
+S872,Maple Yard 872,14.463,18.078
+S873,Cedar Yard 873,14.869,17.084
+S874,Ivy Row 874,15.583,16.324
+S875,Pinewood Green 875,16.305,15.556
+S876,Linden Yard 876,17.129,15.052
+S877,Zephyr Row 877,17.975,14.442
+S878,Garnet Square 878,18.973,14.002
+S879,Pinewood Court 879,14.365,11.413
+S880,Maple Hill 880,14.719,12.132
+S881,Juniper Market 881,14.920,12.813
+S882,Yarrow Bridge 882,15.429,13.424
+S883,Sunhill Hill 883,15.567,14.237
+S884,Upland Gate 884,16.086,14.906
+S885,Dunmore Yard 885,16.708,16.334
+S886,Kestrel Market 886,17.499,18.452
+S887,Cedar Cross 887,18.493,20.488
+S888,Cedar Park 888,18.917,21.096
+S889,Vale Cross 889,19.430,22.599
+S890,Zephyr Green 890,19.767,23.367
+S891,Brook Court 891,20.837,25.479
+S892,Kestrel Court 892,21.735,27.499
+S893,Alder Bridge 893,21.943,28.305
+S894,Garnet Bridge 894,22.694,29.649
+S895,Oakley Cross 895,23.108,30.380
+S896,Alder Lane 896,23.582,31.846
+S897,Alder Hill 897,23.917,32.481
+S898,Northgate Lane 898,24.972,34.644
+S899,Kestrel Gate 899,25.671,36.094
+S900,Alder Square 900,25.947,36.799
+S901,Brook Hill 901,26.323,37.503
+S902,Alder Row 902,26.482,38.222
+S903,Elm Green 903,26.852,38.962
+S904,Upland Yard 904,9.766,12.645
+S905,Alder Market 905,9.847,13.217
+S906,Oakley Lane 906,10.126,13.721
+S907,Ridge Lane 907,10.042,14.319
+S908,Cedar Square 908,10.393,15.956
+S909,Ivy Market 909,10.519,16.552
+S910,Zephyr Row 910,10.602,17.067
+S911,Oakley Gate 911,10.812,19.339
+S912,Ivy Gate 912,10.965,19.870
+S913,Garnet Bridge 913,11.355,22.018
+S914,Linden Bridge 914,11.573,23.108
+S915,Kestrel Bridge 915,11.632,24.152
+S916,Sunhill Hill 916,11.791,25.205
+S917,Kestrel Hill 917,11.969,26.294
+S918,Cedar Park 918,12.303,27.381
+S919,Ivy Hill 919,12.304,27.946
+S920,Maple Gate 920,12.520,28.483
+S921,Linden Square 921,12.518,29.000
+S922,Elm Park 922,12.665,29.548
+S923,Linden Cross 923,12.745,30.052
+S924,Oakley Lane 924,12.708,30.593
+S925,Yarrow Hill 925,12.886,31.152
+S926,Brook Square 926,12.830,31.760
+S927,Ridge Yard 927,13.160,32.326
+S928,Garnet Hill 928,13.248,32.873
+S929,Ivy Market 929,13.122,33.463
+S930,Alder Square 930,13.302,34.043
+S931,Kestrel Road 931,13.383,34.611
+S932,Sunhill Cross 932,13.527,35.184
+S933,Thorne Market 933,13.608,35.766
+S934,Dunmore Park 934,10.311,9.576
+S935,Alder Park 935,10.975,9.460
+S936,Vale Bridge 936,11.638,9.343
+S937,Zephyr Hill 937,12.302,9.226
+S938,Kestrel Square 938,12.965,9.110
+S939,Cedar Cross 939,13.628,8.993
+S940,Fairview Square 940,14.292,8.876
+S941,Cedar Road 941,14.955,8.760
+S942,Cedar Gate 942,15.618,8.643
+S943,Zephyr Gate 943,16.282,8.526
+S944,Kestrel Court 944,17.609,8.293
+S945,Willow Hill 945,18.272,8.176
+S946,Northgate Court 946,18.935,8.060
+S947,Harbor Court 947,19.599,7.943
+S948,Brook Hill 948,20.262,7.826
+S949,Upland Court 949,20.926,7.710
+S950,Alder Market 950,13.976,25.979
+S951,Elm Row 951,13.552,25.038
+S952,Zephyr Green 952,13.185,24.100
+S953,Oakley Row 953,12.867,22.955
+S954,Linden Cross 954,12.718,21.923
+S955,Garnet Yard 955,13.249,17.785
+S956,Upland Road 956,21.782,12.749
+S957,Alder Park 957,28.005,16.144
+S958,Willow Row 958,29.776,19.844
+S959,Vale Yard 959,29.878,20.940
+S960,Oakley Cross 960,29.825,22.035
+S961,Cedar Market 961,26.150,28.167
+S962,Garnet Park 962,16.194,28.186
+S963,Brook Road 963,15.457,27.533
+S964,Alder Row 964,19.601,14.873
+S965,Willow Yard 965,19.297,15.348
+S966,Upland Green 966,19.215,15.976
+S967,Linden Lane 967,19.020,16.597
+S968,Zephyr Square 968,18.631,17.780
+S969,Upland Market 969,17.620,20.509
+S970,Linden Gate 970,17.476,21.096
+S971,Alder Road 971,17.451,21.687
+S972,Alder Bridge 972,17.292,22.231
+S973,Zephyr Cross 973,16.805,23.336
+S974,Alder Bridge 974,16.577,23.865
+S975,Garnet Yard 975,16.561,24.438
+S976,Linden Hill 976,16.311,24.948
+S977,Brook Cross 977,16.188,25.489
+S978,Yarrow Court 978,15.654,27.221
+S979,Kestrel Row 979,15.251,28.336
+S980,Elm Gate 980,14.886,29.509
+S981,Zephyr Park 981,14.666,30.050
+S982,Zephyr Lane 982,14.543,30.574
+S983,Vale Green 983,14.304,31.122
+S984,Oakley Road 984,14.040,31.639
+S985,Maple Market 985,13.994,32.251
+S986,Cedar Hill 986,13.680,32.791
+S987,Elm Hill 987,13.126,35.112
+S988,Cedar Row 988,12.898,35.655
+S989,Elm Gate 989,12.421,37.333
+S990,Sunhill Gate 990,12.116,37.854
+S991,Pinewood Bridge 991,12.010,38.400
+S992,Harbor Square 992,11.748,38.907
+S993,Sunhill Road 993,11.699,39.512
+S994,Ivy Square 994,8.262,32.132
+S995,Ridge Road 995,9.003,32.230
+S996,Ridge Market 996,9.744,32.329
+S997,Juniper Cross 997,10.486,32.428
+S998,Elm Lane 998,11.227,32.526
+S999,Vale Bridge 999,12.709,32.724
+S1000,Northgate Road 1000,14.191,32.921
+S1001,Juniper Cross 1001,14.932,33.020
+S1002,Maple Green 1002,15.673,33.118
+S1003,Willow Park 1003,16.415,33.217

@@ -1,0 +1,109 @@
+{
+  "SYNTHETIC": true,
+  "notice": "All results come from fictional synthetic cities (see data/*/DATASET_CARD.md).",
+  "generated_utc": "2026-10-14T09:21:49+00:00",
+  "mode": "full",
+  "python": "3.13.16",
+  "platform": "Linux-6.18.44-fc-v114-x86_64-with-glibc2.39",
+  "city_seed": 42,
+  "pair_seed_base": 2026,
+  "pairs_per_network": {
+    "city_80": 300,
+    "city_300": 300,
+    "city_1000": 200
+  },
+  "timing_repeats": {
+    "city_80": 15,
+    "city_300": 7,
+    "city_1000": 5
+  },
+  "timing_statistic": "median of repeated runs, perf_counter, GC disabled; absolute microseconds depend on the machine, ratios are more portable",
+  "default_penalty_min": 5,
+  "penalties_swept": [
+    0,
+    2,
+    5,
+    8,
+    10,
+    15,
+    20,
+    30
+  ],
+  "distance_buckets_km": {
+    "city_80": {
+      "short_max_km": 3.442244180763474,
+      "medium_max_km": 5.621177278826918
+    },
+    "city_300": {
+      "short_max_km": 6.923508720294935,
+      "medium_max_km": 10.702646588577986
+    },
+    "city_1000": {
+      "short_max_km": 11.293497332536097,
+      "medium_max_km": 18.166351449864663
+    }
+  },
+  "expanded_definition": "states popped from the open list and expanded (goal excluded); same for both algorithms",
+  "deterministic_columns": "cost, transfers, expanded, generated, breakdowns (identical for identical seeds)",
+  "timing_columns": "time_us and anything derived from it (vary between runs and machines)",
+  "total_astar_dijkstra_cost_mismatches": 0,
+  "flip_trips_found_city_80": 1340,
+  "flip_trips_searched_city_80": 6320,
+  "networks": {
+    "city_80": {
+      "stops": 80,
+      "routes": 20,
+      "walk_links": 16,
+      "graph_nodes": 262,
+      "graph_edges": 542,
+      "seed": 42,
+      "dataset_path": "data/synthetic_city",
+      "median_heuristic_tightness": 0.1367184228236518,
+      "checksums_sha256": {
+        "DATASET_CARD.md": "ecfc50f91dc40c2760f06ba51cdcc563b76da7845dc363947878be4ac628759b",
+        "config.json": "a1a1582b45c81ea727c6e27d2990e9dd85ce2fbdef9f6d4a08f8877383b995a7",
+        "route_stops.csv": "121872bbe74a0aef3bce17d2f43f6612d916cce519fe0b92d125df8b4c86541f",
+        "routes.csv": "ac8ce373169af99dbdea96f4f612b4245ea15be732c77b446b24e47699481570",
+        "stops.csv": "bd39275fdb7c9c5e6681e3c845abed25b88d9e8c0dc934a4f715b3b67f90a4a7",
+        "walk_links.csv": "f6d35b8eede7ea667dfaacb8986e8039506e721861e2713c87c1e935ae36fbb5"
+      }
+    },
+    "city_300": {
+      "stops": 303,
+      "routes": 36,
+      "walk_links": 56,
+      "graph_nodes": 1003,
+      "graph_edges": 2148,
+      "seed": 42,
+      "dataset_path": "data/city_300",
+      "median_heuristic_tightness": 0.17981121661508676,
+      "checksums_sha256": {
+        "DATASET_CARD.md": "c61b4aec082ce7c79b392373b20cebcd303b4d2ed20c8bab054112e5311aa6f3",
+        "config.json": "a1a1582b45c81ea727c6e27d2990e9dd85ce2fbdef9f6d4a08f8877383b995a7",
+        "route_stops.csv": "65ccf0997d2e446af1fbcebda480347a2939c8cc1616355b67e3cf0b523e5073",
+        "routes.csv": "2c59439fd602c8a24279a99993fcbaf34dc6cec739154213193be9579b80abe3",
+        "stops.csv": "37f48a537a19a3ba3fcd7f551bc8d2b1ad9b3dbc02bc715e835034c6b174e21c",
+        "walk_links.csv": "c9f3d556b14da5e7077be6acac467e2dba1bfffb9ee4bbe0eaf3c7b5c9167c48"
+      }
+    },
+    "city_1000": {
+      "stops": 1003,
+      "routes": 68,
+      "walk_links": 327,
+      "graph_nodes": 3503,
+      "graph_edges": 8046,
+      "seed": 42,
+      "dataset_path": "data/city_1000",
+      "median_heuristic_tightness": 0.27142235770309114,
+      "checksums_sha256": {
+        "DATASET_CARD.md": "bc810691d9ccd0ab6ca3b66a4787a8d9a17aa017c668726ab584f16a62a95743",
+        "config.json": "a1a1582b45c81ea727c6e27d2990e9dd85ce2fbdef9f6d4a08f8877383b995a7",
+        "route_stops.csv": "f5510558d62333b844a6d7884e3dc5c18c822e967857c884b3f826497d5561c7",
+        "routes.csv": "0e41878fc5db08777ef58745f0b51735a15a6e03d62622fd06de6f843e2d8cb6",
+        "stops.csv": "cf47876dae3ab4aa26e8ef5664f57f75d8490f6b08cd55fc1d0682e5db9431eb",
+        "walk_links.csv": "55d91e0524d9bc9ff374a3dec3ba3d8103e9336283244b17b6c0a8acd30d5a85"
+      }
+    }
+  },
+  "runtime_seconds": 29.8
+}
